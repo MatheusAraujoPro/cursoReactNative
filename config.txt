@@ -1,0 +1,26 @@
+CRIANDO O PROJETO
+    |- Dentro da pasta do projeto criei uma nova pasta chamda backend
+        |-- backend: iniciei o projeto através do comando yarn init -yarn
+
+        yarn init -yarn 
+            |- Cria o projeto através do package.json
+                |-package.json
+                    |-Armazena algumas informações cruciais sobre o app e as dependências
+
+        Insalando dependências
+        |-> yarn add nomeDaDependecia
+
+
+        Midleware
+        |-> função que recebe dois parâmetros(req, res) e devolve um valor
+        |-> DESENHO: (req, res)=>{}
+        |-> Caso eu queria usar variáveis dentro das strings, substituo as aspas simples 
+            pelos apostrofos
+        
+        Nodemom
+        |-> Dependência de desenvolvimento
+        |-> Crio um "Novo perfil"de desenvolvimento
+        |-> Restarta o servidor sempre que há uma alteração
+
+        
+
