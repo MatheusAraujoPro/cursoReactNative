@@ -13,15 +13,8 @@ mongose.connect('mongodb+srv://admin:admin@cluster0-zpexf.mongodb.net/test?retry
 //criandp a aplicação
 const app = express();
 
-//criando uma rota para aplicação
-app.get('/', (req, res)=>{
-    
-    //Resposta simples de hello world
-    //return res.send('Hello World')
-
-    //Usando variável dentro da string(por parâmetro na URL)
-    return res.send(`Olá ${req.query.name}` );
-});
+//usando as rotas
+app.use(require( './routes'));
 
 //porta de acesso a aplicação
 app.listen(3333);
