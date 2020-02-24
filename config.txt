@@ -22,5 +22,18 @@ CRIANDO O PROJETO
         |-> Crio um "Novo perfil"de desenvolvimento
         |-> Restarta o servidor sempre que há uma alteração
 
+        Multer
+        |->É uma biblioteca que lida com o corpo de requisições mult part form data
+        |->Automatiza o processo de upload dentro de arquivos dentro backend
+
+        Sharp
+        |-> Permite manipulação de imagens
+        |-> É necessário redimencionar a imagem devido ao tamamho padrão usado no mobile
+
+        Cors
+        |-> Dependência que permite que o backend possa ser acessível pelo front mesmo ele 
+            estando em domínios diferentes
+        
+
         
 

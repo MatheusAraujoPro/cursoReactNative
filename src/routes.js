@@ -18,8 +18,6 @@ const routes = new express.Router();
 routes.get('/posts', PostController.index);
 routes.post('/posts', upload.single('image') ,PostController.Storage);
 routes.post('/posts/:id/like', LikeController.Storage);
-
-
     
   
 //exportando as rotas
