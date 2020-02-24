@@ -33,6 +33,11 @@ CRIANDO O PROJETO
         Cors
         |-> Dependência que permite que o backend possa ser acessível pelo front mesmo ele 
             estando em domínios diferentes
+
+        Obs: O Protoclo de comunicação real time não é suportado pelo Nodemom
+        no caso de eu qeurer usar terei que baixar mais uma dependência o socket.informações
+
+        
         
 
         

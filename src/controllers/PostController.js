@@ -46,6 +46,9 @@ module.exports = {
             image,
         });
 
+        //Após a criação de um novo post todos s usuários logados receberão uma mensagem
+        req.io.emit('post', post);
+
 
         return res.json(post);
     },
